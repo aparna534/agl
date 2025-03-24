@@ -1,0 +1,24 @@
+echo
+echo "INSTALLING WORKSPACE AUTOMATION"
+echo
+echo
+
+
+if [ ! -d "$HOME/workspace-automation" ]; then
+	echo " "
+	echo " "
+	echo "Cloning workpace automation"
+	git clone https://github.com/meta-flutter/workspace-automation.git $HOME/workspace-automation
+	cd $HOME/workspace-automation
+	./flutter_workspace.py  --flutter-version 3.27.1 --enable-plugin agl-ivi-demo-flutter-qemu
+	source setup_env.sh
+
+else
+	echo ""
+	echo  ""
+	echo " workspace automation already installed"
+
+fi
+
+
+		

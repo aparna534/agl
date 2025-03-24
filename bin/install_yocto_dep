@@ -1,0 +1,13 @@
+echo "Installing Yocto dependencies"
+sudo apt install -y python3-pip python3-setuptools python3-wheel libssl-dev liblz4-tool libncurses5-dev zstd
+
+
+sudo apt update && sudo apt install -y gawk wget git-core diffstat \
+	unzip texinfo gcc-multilib build-essential chrpath socat \
+	cpio python3-pip \
+	python3-pexpect xz-utils \
+	debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev xterm
+
+source agl-init-build-env
+
+

@@ -1,0 +1,6 @@
+echo "Install Virtualisation tools"
+sudo apt install -y qemu qemu-system-x86 qemu-utils
+apt-get install qemu-system
+
+
+

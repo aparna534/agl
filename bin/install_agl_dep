@@ -1,0 +1,6 @@
+echo "Installing additional AGL dependencies"
+
+
+sudo apt install -y libglib2.0-dev libarchive-dev liblzma-dev libncursesw5-dev ccache
+ 
+

@@ -1,0 +1,11 @@
+echo ""
+echo ""
+echo ""
+echo "setting up the PATH"
+echo ""
+echo ""
+export "PATH=$HOME/flutter/bin:$HOME/agl/external/poky/bitbake/bin:$PATH"
+
+cd ~/agl/external/poky
+source oe-init-build-env
+

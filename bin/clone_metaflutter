@@ -1,0 +1,13 @@
+
+cd ~/agl/external
+
+
+# to avoid this error
+# ERROR: Layer aglcore is not compatible with the core layer which only supports these series: styhead (layer is compatible with scarthgap)
+# we download scarthgap
+
+git clone -b scarthgap https://github.com/meta-flutter/meta-flutter.git meta-flutter
+
+
+
+

@@ -1,0 +1,4 @@
+
+
+source meta-agl/scripts/aglsetup.sh -f -m qemux86-64 -b qemux86-64 agl-flutter agl-devel
+

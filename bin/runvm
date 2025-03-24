@@ -1,0 +1,7 @@
+cd
+cd agl/build
+
+runqemu tmp/deploy/images/qemux86-64/agl-image-minimal-qemux86-64.rootfs.qemuboot.conf
+
+
+

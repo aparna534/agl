@@ -1,0 +1,6 @@
+
+cd ~/agl
+bitbake-layers add-layers ./flutter_app
+
+
+

@@ -1,0 +1,18 @@
+
+cd ~/agl/external
+git clone git://git.yoctoproject.org/poky
+cd poky
+
+
+# to avoid this error
+# ERROR: Layer aglcore is not compatible with the core layer which only supports these series: styhead (layer is compatible with scarthgap)
+# we download scarthgap
+
+git clone -b scarthgap https://github.com/yoctoproject/poky.git
+
+#git pull
+
+source oe-init-build-env
+
+
+

@@ -1,0 +1,8 @@
+
+cd ~/agl/external
+git clone -b scarthgap git://git.yoctoproject.org/meta-yocto
+
+
+
+
+

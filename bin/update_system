@@ -1,0 +1,7 @@
+echo "UPDATE AND UPGRADE THE SYSTEM"
+
+sudo apt update && sudo apt upgrade -y
+
+
+
+

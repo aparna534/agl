@@ -1,0 +1,11 @@
+
+
+
+cd ~/agl/flutter_app/AGLTASK
+
+flutter build linux
+
+
+flutter run -d linux
+
+

@@ -1,0 +1,15 @@
+echo "Clone AGL"
+
+if [ ! -d "$HOME/agl/salmon" ]; then 
+	echo  "Cloning AGL"
+
+	git clone -b salmon https://gitlab.com/automotivegradelinux/AGL/meta-agl.git meta-agl
+	cd $HOME/agl/
+	source meta-agl/scripts/aglsetup.sh -m qemux86-64 
+#	source meta-agl/scripts/aglsetup.sh -f -m qemux86-64 -b qemux86-64 agl-flutter agl-devel
+else
+	echo "AGL already installed"
+
+fi
+
+

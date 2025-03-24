@@ -1,0 +1,10 @@
+#  following commands to avoid this error 
+# "Restrcited unprivileged user namespaces"
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
+
+# Following command to avoid error while running bitbake
+# operation not permitted  while disable_network (  from bitbake/lib/bb/utils.py ) attempt to write to /proc/self/uid_map
+
+sudo apparmor_parser -R /etc/apparmor.d/unprivileged_userns

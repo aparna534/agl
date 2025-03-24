@@ -1,0 +1,10 @@
+
+cd ~/agl/external
+
+
+
+git clone -b scarthgap https://github.com/kraj/meta-clang.git meta-clang
+
+
+
+

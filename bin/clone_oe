@@ -1,0 +1,9 @@
+cd 
+cd ~/agl
+mkdir external
+cd external
+
+
+git clone -b scarthgap https://git.openembedded.org/meta-openembedded
+
+
